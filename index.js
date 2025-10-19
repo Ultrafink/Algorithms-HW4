@@ -14,7 +14,7 @@ function findKthElement(arr1, arr2, k) {
     if (count === k) return element;
   }
 
-  // Если элементы остались только в одном массиве
+  
   while (i < arr1.length) {
     element = arr1[i];
     i++;
@@ -30,7 +30,7 @@ function findKthElement(arr1, arr2, k) {
   }
 }
 
-// Проверим
+
 const arr1 = [100, 112, 256, 349, 770];
 const arr2 = [72, 86, 113, 119, 265, 445, 892];
 const k = 7;
